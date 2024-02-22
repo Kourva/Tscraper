@@ -67,7 +67,7 @@ CREATE TABLE "users" (
     "access_hash" TEXT
 );
 ```
-**Sample:** Databse is located in `Users/tuser.db`<br>
+**Sample:** Database is located in `Users/tuser.db`<br>
 
 chat_id | username | access_hash 
 --- | --- | --- 
@@ -84,4 +84,17 @@ python main.py                    # Without proxy
 ```bash
 proxychains -q python main.py     # With proxy (Edit proxy in /etc/proxychains4.conf)
 ```
-You just need to type **OTP code** sent to your phone number, after logging, new session with your phone number as its name will be created in root directory `.` for example: **13412428592.session**
+You just need to type **OTP code** sent to your phone number, after logging, new session with your phone number as its name will be created in root directory of Tscraper `.` for example: **13412428592.session**
+
+<br>
+
+# ヅ Common Issues
+If you get an error like this, `Server sent a very new message with ID xxxxxxxxxxxxxxxxxxx, ignoring`, just fix your device clock using ntpdate:
+```bash
+sudo ntpdate 0.pool.ntp.org && sudo hwclock -w
+```
+Don't act like a bot (like joining to many groups in short time), Telegram will ban your account, make sure to join groups with at least 60 seconds delay between each!
+
+<br>
+
+<h3 align="center">❦ Thanks for your support ❦</h3>
