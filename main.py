@@ -56,11 +56,13 @@ if not client.is_user_authorized():
      
     # Login using OTP code
     try:
-        self_user: ClassVar[Any] = (client.sign_in(
-            phone=credits["phone_number"],
-            code=code,
-            phone_code_hash=otp_code.phone_code_hash
-        ))
+        self_user: ClassVar[Any] = (
+            client.sign_in(
+                phone=credits["phone_number"],
+                code=code,
+                phone_code_hash=otp_code.phone_code_hash
+            )
+        )
 
     # Try again using 2FA password if it's required
     except telethon.errors.rpcerrorlist.SessionPasswordNeededError:
