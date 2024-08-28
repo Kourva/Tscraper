@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 
 """
-Automated Telegram Scraper - Author: kozyol
-https://github.com/kozyol/Tscraper
+Automated Telegram Scraper - Author: Kourva
+https://github.com/Kourva/Tscraper
 """
 
 # Standard imports
