@@ -8,9 +8,9 @@
     </h4>
     <div align="center">
       <kbd>
-        <img align="center" src="https://img.shields.io/github/license/kozyol/Tscraper?style=flat-square&logo=github&logoColor=%23ff5500&labelColor=black&color=%23ff5500" />
-        <img align="center" src="https://img.shields.io/github/languages/code-size/kozyol/Tscraper?style=flat-square&logo=python&logoColor=%23ff5500&labelColor=%23000000&color=%23ff5500" />
-        <img align="center" src="https://img.shields.io/github/stars/kozyol/Tscraper?style=flat-square&logo=polestar&logoColor=%23ff5500&labelColor=%23000000&color=%23ff5500" />
+        <img align="center" src="https://img.shields.io/github/license/Kourva/Tscraper?style=flat-square&logo=github&logoColor=%23ff5500&labelColor=black&color=%23ff5500" />
+        <img align="center" src="https://img.shields.io/github/languages/code-size/Kourva/Tscraper?style=flat-square&logo=python&logoColor=%23ff5500&labelColor=%23000000&color=%23ff5500" />
+        <img align="center" src="https://img.shields.io/github/stars/Kourva/Tscraper?style=flat-square&logo=polestar&logoColor=%23ff5500&labelColor=%23000000&color=%23ff5500" />
        </kbd>
       </div>
 </div>
@@ -18,7 +18,7 @@
 <br><br><br>
 
 # ¶ About
-[**Tscraper**](https://github.com/kozyol/Tscraper) is an automated telegram group scraper tool with automated login process (You don't need to enter number or 2fa everytime you run the code). This scraper will run on your account and when you join the group, it will start scraping all members and save it into [SQLite3](https://docs.python.org/3/library/sqlite3.html) database...
+[**Tscraper**](https://github.com/Kourva/Tscraper) is an automated telegram group scraper tool with automated login process (You don't need to enter number or 2fa everytime you run the code). This scraper will run on your account and when you join the group, it will start scraping all members and save it into [SQLite3](https://docs.python.org/3/library/sqlite3.html) database...
 *Note*: This tool will not scrape `Hidden Members` in groups!
 
 <br>
@@ -27,7 +27,7 @@
 > First of all, make sure you have [python3](https://www.python.org/downloads/) & `git` installed on your machine...
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/kozyol/Tscraper
+    git clone https://github.com/Kourva/Tscraper
     ```
 
 2. **Navigate to Tcraper and make** [Virtual Environment](https://docs.python.org/3/library/venv.html):
